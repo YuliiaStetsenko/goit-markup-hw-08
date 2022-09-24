@@ -1,12 +1,9 @@
-@mixin font($fw, $fs, $lh, $ls) {
-    font-weight: $fw;
-    font-size: $fs;
-    line-height: $lh;
-    letter-spacing:$ls;
-    }
 
 .modal_form_title{
-    @include font(700, 20px, 1.15, 0.03cm);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing:0.03em;
 text-align: center;
 color: var(--primary-text-color-theme-light);
 margin-bottom: 12px;
@@ -139,7 +136,10 @@ margin-left: 7px;
 }
 
 .modal_form_submit{
-    @include font(700, 16px, 1.88, 0.06cm);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing:0.06em;
     align-items: center;
     text-align: center;
     background-color:var(--accent-color);
