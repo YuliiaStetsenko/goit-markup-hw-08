@@ -1,8 +1,36 @@
+.menu {
+ display: none;
+}
 
-//.header__container{
- //   display: flex;
-  //  align-items: center;
-//}
+.contacts_header {
+  display: none;
+}
+
+.open_mobile_menu_btn {
+border:none;
+background-color: transparent;
+padding: 0px;
+height: 40px;
+}
+
+.open_mobile_menu_btn__icon{
+width: 40px;
+height: 40px;
+}
+
+.header__container{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+
+
 
 //.page_nav{
  //   display: flex;
@@ -79,3 +107,5 @@
   //  margin-right: 10px;
   //  fill: currentColor;
   // }
+
+

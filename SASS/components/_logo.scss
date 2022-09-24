@@ -1,32 +1,32 @@
-@mixin font($fw, $fs, $lh, $ls) {
-    font-weight: $fw;
-    font-size: $fs;
-    line-height: $lh;
-    letter-spacing:$ls;
+
+    .page_nav__logo_first {
+        font-family: 'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+            color:var(--first-logo-text-color);
+            text-decoration: none;
+      
     }
 
-.logo_first{
-    @include font(700, 26px, 1.19, 0.03cm);
-    font-family: 'Raleway',sans-serif;
-        color:var(--first-logo-text-color);
-        text-decoration: none;
-    }
-
-    .page_nav__logo_first{
-        margin-right: 93px;
-padding-top: 24px;
-padding-bottom: 25px;
-      }
+// margin-right: 93px;
+//padding-top: 24px;
+//padding-bottom: 25px;
 
     .logo__item_web{
         color:var(--accent-color)
     }
+        
 
     .footer__logo_second{
-        @include font(700, 26px, 1.19, 0.03cm);
         font-family:'Raleway',sans-serif;
-            color:var(--accent-color) ;
-            color:var(--primary-text-color-theme-dark);
-            text-decoration: none; 
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color:var(--accent-color) ;
+    color:var(--primary-text-color-theme-dark);
+    text-decoration: none; 
         }
       
