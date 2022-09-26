@@ -791,12 +791,6 @@ section {
   margin-bottom: 50px;
 }
 
-.team_list {
-  margin-top: 50px;
-  display: flex;
-  column-gap: 30px;
-}
-
 .team_list__content {
   width: 270px;
   background-color: var(--primary-background-color);
@@ -861,9 +855,26 @@ section {
 }
 
 @media screen and (max-width: 767px) {
-  .page_team {
+  .team_list {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    row-gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team_list {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team_list {
+    display: flex;
+    column-gap: 30px;
+    flex-direction: row;
   }
 }
 .clients__title {
@@ -904,6 +915,29 @@ section {
   color: var(--accent-color);
 }
 
+@media screen and (max-width: 767px) {
+  .clients__list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients__list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__list {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 30px;
+  }
+}
 .page_footer {
   background-color: var(--secondary-background-color);
   padding: 60px 0px;
