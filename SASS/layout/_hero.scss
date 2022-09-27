@@ -47,7 +47,7 @@ width: 100%;
    height: 400px;
    padding-top: 118px;
    padding-bottom: 118px;
-background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../../img/background-mobile.jpg');
+background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../img/background-mobile.jpg');
   }
 } 
 
@@ -55,7 +55,7 @@ background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
 
 @media screen and (min-width:768px) {
   .hero{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../../img/background-mobile@2x.jpg');
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../img/background-mobile@2x.jpg');
     padding-top: 118px;
     padding-bottom: 118px;
   }
