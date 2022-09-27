@@ -1158,6 +1158,32 @@ ul {
   .footer_social__title {
     text-align: left;
   }
+  .footer_social {
+    margin-left: 70px;
+  }
+  .footer__content {
+    align-items: flex-start;
+  }
+  .footer_address__list {
+    align-items: flex-start;
+  }
+  .footer_subscription {
+    margin-left: auto;
+  }
+  .footer_subscription__content {
+    display: flex;
+    column-gap: 12px;
+    justify-content: center;
+  }
+  .footer_subscription__mail {
+    width: 358px;
+  }
+  .footer_subscription__button {
+    margin-top: 0;
+  }
+  .footer_subscription__title {
+    text-align: left;
+  }
 }
 .page_portfolio {
   border-bottom: 1px solid var(--border-color-line);
