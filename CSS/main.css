@@ -990,13 +990,6 @@ section {
   border-bottom: 1px solid var(--border-color-line);
 }
 
-.portfolio__list {
-  display: flex;
-  margin-bottom: 50px;
-  column-gap: 8px;
-  justify-content: center;
-}
-
 .portfolio__button {
   font-weight: 500;
   font-size: 16px;
@@ -1076,4 +1069,11 @@ section {
 }
 .portfolio__link:hover .portfolio__overlay, .portfolio__link:focus .portfolio__overlay {
   transform: translateY(0%);
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=main.css.map */
