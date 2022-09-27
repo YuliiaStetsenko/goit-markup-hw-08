@@ -33,7 +33,7 @@ justify-content: space-between;
     display: flex;
        column-gap: 50px;
       padding-top: 32px;
-       padding-bottom:32px ;
+     
     }
 
        .menu__link {
@@ -101,7 +101,11 @@ justify-content: space-between;
              
 }
 
+
 @media screen and (min-width:1200px) {
+  .menu { 
+       padding-bottom:32px ;
+    }
   .header__container{
   justify-content: flex-start;
   }
@@ -130,6 +134,7 @@ justify-content: space-between;
 background-color: var(--accent-color);
 border-radius: 2px;
  }
+ 
 }
 
 //.page_nav{

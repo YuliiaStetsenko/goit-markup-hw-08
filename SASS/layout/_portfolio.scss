@@ -1,4 +1,7 @@
-
+.page_portfolio{
+    border-bottom: 1px solid var(--border-color-line);
+    
+}
 
 
 // .portfolio__list {
@@ -94,8 +97,8 @@ letter-spacing: 0.03em;
  
   .portfolio__link:hover &, .portfolio__link:focus & {
  transform:translateY(0%);
- }
-}
+ }}
+
 @media screen and(max-width:767px) {
     .portfolio__list {
     display: flex;
@@ -104,5 +107,8 @@ letter-spacing: 0.03em;
     margin-right: auto;
     margin-bottom:40px ;
     width: 326px;
+ }
+ .current::after {
+    display: none;
  }
 }
