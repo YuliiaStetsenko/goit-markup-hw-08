@@ -1,13 +1,11 @@
-.page_header{
-    border-bottom: 1px solid var(--border-color-line);
-}
+
 
 
 // .portfolio__list {
 //     display: flex;
 //     margin-bottom:50px ;
 // column-gap: 8px;
-// justify-content: center
+// justify-content: center;
 // }
 
 .portfolio__button {
@@ -102,5 +100,9 @@ letter-spacing: 0.03em;
     .portfolio__list {
     display: flex;
     flex-wrap: wrap;
+    gap: 8px;
+    margin-right: auto;
+    margin-bottom:40px ;
+    width: 326px;
  }
 }
