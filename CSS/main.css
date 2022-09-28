@@ -267,7 +267,6 @@ ul {
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   color: var(--secondary-text-color-theme-light);
 }
 
@@ -839,12 +838,6 @@ ul {
   background-color: var(--team-buttons-background-color);
 }
 
-.container {
-  width: 480px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .img {
   display: block;
   max-width: 100%;
@@ -1010,6 +1003,7 @@ ul {
   }
 }
 .page_footer {
+  width: 100%;
   background-color: var(--secondary-background-color);
   padding: 60px 0px;
 }
@@ -1017,15 +1011,13 @@ ul {
 .footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .footer__content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 232px;
   margin-bottom: 60px;
+  align-items: center;
 }
 
 .footer_address__list {
@@ -1104,6 +1096,8 @@ ul {
 .footer_social__list {
   display: flex;
   column-gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer_subscription__title {
@@ -1161,6 +1155,11 @@ ul {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .footer_subscription__mail {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
   .footer {
     flex-direction: row;

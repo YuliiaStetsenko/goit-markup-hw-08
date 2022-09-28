@@ -1,21 +1,21 @@
 
 .page_footer{
-    background-color:var(--secondary-background-color) ;
+  width: 100%;  
+  background-color:var(--secondary-background-color) ;
     padding: 60px 0px;
    
  }
  .footer{
   display:flex;
   flex-direction: column;
-  align-items: center;
+ 
 }
 
 .footer__content{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 232px;
   margin-bottom: 60px;
+  align-items: center;
 }
 
 .footer_address__list{
@@ -101,6 +101,8 @@ margin-bottom: 60px;
 .footer_social__list{
 display: flex;
 column-gap: 10px;
+align-items: center;
+justify-content: center;
 }
 
 .footer_subscription__title {
@@ -161,7 +163,11 @@ color: var(--primary-text-color-theme-dark);
     margin-left: 10px;
 }
 
-
+@media screen and(max-width:767px) {
+  .footer_subscription__mail{
+    width: 100%;
+  }
+}
 
 
 @media screen and(min-width:768px){
@@ -171,6 +177,7 @@ color: var(--primary-text-color-theme-dark);
     align-items: flex-start;
     justify-content: space-around;
   }
+ 
 }
 
 @media screen and(min-width:1200px) {
