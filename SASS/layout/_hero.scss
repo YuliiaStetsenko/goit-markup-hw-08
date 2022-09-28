@@ -47,7 +47,7 @@ padding-top: 118px;
   
 @media screen and (max-width:767px){
   .hero {
-  max-width: 767px;
+  max-width: 768px;
    height: 400px;
   }
   @media screen and (min-device-pixel-ratio:2) and (max-width:767px),
@@ -67,7 +67,7 @@ padding-top: 118px;
 @media screen and (min-width:768px) {
   .hero{
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../img/background-1-tablet.jpg);
-    min-width: 768px;
+   max-width: 1200px;
   }
   @media screen and (min-device-pixel-ratio:2) and (min-width:768px),
     screen and (min-resolution:192dpi) and (min-width:768px),
@@ -83,7 +83,7 @@ padding-top: 118px;
   @media screen and (min-width:1200px) {
   .hero{
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../img/background-1-desktop@2x.jpg);
-    min-width:1200px;
+    max-width:1600px;
    
    padding-top: 200px;
    padding-bottom: 200px;
