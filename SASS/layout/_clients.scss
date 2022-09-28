@@ -1,8 +1,8 @@
 .clients__title {
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    font-size: 28px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
@@ -12,7 +12,8 @@
     .clients__list{
        margin-top: 50px;
        display: flex;
-    column-gap: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
       }
      
     
@@ -27,7 +28,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-  width: 170px;
+  width: 210px;
   height:92px;
   border: 1px solid #AFB1B8;
   color: var(--primary-color-icons);
@@ -39,28 +40,14 @@
     }
   }
     
-  @media screen and(max-width:767px) {
-    .clients__list{
-      margin-top: 50px;
-      display: flex;
-      flex-wrap: wrap;
-   gap: 30px;
-     }
-  }
-
-  @media screen and(min-width:768px) {
-    .clients__list{
-      margin-top: 50px;
-      display: flex;
-      flex-wrap: wrap;
-   gap: 30px;
-     }
-  }
-
+  
   @media screen and(min-width:1200px) {
-    .clients__list{
-      margin-top: 50px;
-      display: flex;
-   column-gap: 30px;
-     }
+    .clients__title{
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.17;
+    }
+     .clients__link {
+      width: 170px;
   }
+}

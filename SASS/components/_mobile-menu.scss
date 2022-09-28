@@ -39,15 +39,15 @@
     height: 40px;
     }
 
-.mobile_menu__conainer {
+.mobile_menu__container {
     position: relative;
     padding-left: 40px;
-    padding-top: 40px;
+    padding-top: 48px;
     padding-bottom: 48px;
      display: flex;
    flex-direction: column;
-   width: 100%;
    height: 100%;
+   justify-content: space-between;
   
 }
 
@@ -98,14 +98,11 @@ height: 40px;
   }
 }
 
-.mobile_menu_contacts{
-margin-top:auto;
-}
-
 .mobile_menu_social__list{
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
-  margin-top:auto;
+  margin-top: 64px;
 }
 .mobile_menu_social__link {
   font-weight: 500;
@@ -138,6 +135,7 @@ color: var(--accent-color);
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.02em;
+  margin-top: 32px;
   color: var(--secondary-text-color-theme-light); 
 }
 
