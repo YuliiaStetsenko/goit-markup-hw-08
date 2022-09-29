@@ -771,7 +771,6 @@ ul {
   .about__list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -972,6 +971,7 @@ ul {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .clients__logo {
