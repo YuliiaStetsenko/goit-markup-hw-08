@@ -27,9 +27,8 @@
 
 .portfolio__services{
     display: flex;
-    column-gap: 30px;
    flex-wrap: wrap;
-   row-gap: 30px;
+   gap: 30px;
    }
 
 .portfolio__border_line {
@@ -104,4 +103,28 @@ letter-spacing: 0.03em;
  .current::after {
     display: none;
  }
+}
+
+@media screen and(min-width:768px) {
+    .portfolio__list{
+    display: flex;
+    margin-bottom:50px ;
+column-gap: 8px;
+justify-content: center;
+}
+.portfolio__services{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   }
+   .portfolio__content {
+    flex-basis: calc((100% - 30px)/2);
+   }
+}
+
+@media screen and(min-width:1200px) {
+    .portfolio__content {
+        flex-basis: calc((100% - 60px)/3);
+       }
+
 }
