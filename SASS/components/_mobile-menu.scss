@@ -16,6 +16,11 @@
     transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
 }
 
+.mobile_menu_contacts__item{
+  margin-bottom: 32px;
+
+}
+
 .mobile_menu.is-open {
     opacity: 1;
     visibility: visible;
