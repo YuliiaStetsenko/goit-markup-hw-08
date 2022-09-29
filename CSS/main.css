@@ -622,26 +622,24 @@ ul {
     font-size: 14px;
     line-height: 1.14;
   }
+  .page_nav__logo_first {
+    margin-right: 92px;
+  }
+  .current {
+    color: var(--accent-color);
+  }
+  .current::after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+  }
 }
-.page_nav__logo_first {
-  margin-right: 92px;
-}
-
-.current {
-  color: var(--accent-color);
-}
-.current::after {
-  content: "";
-  position: absolute;
-  display: block;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  border-radius: 2px;
-}
-
 .hero {
   background-color: var(--secondary-background-color);
   text-align: center;
